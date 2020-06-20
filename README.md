@@ -1,11 +1,25 @@
 # Rest-Api-Python
 Rest Api (python)
 
-Example:
-User with name and surname
+###Example:
+    restApi.json
 
-Source:
-    .json file
+```sh
+{
+    "users": [
+        {
+            "id": 0,
+            "name": "Misha",
+            "surname": "Pidor"
+        },
+        {
+            "id": 1,
+            "name": "Fedor",
+            "surname": "Krasauchik"
+        }
+    ]
+}
+```
 
 ### Routes:
 
