@@ -11,8 +11,11 @@ Source:
 
 | URL | Параметры | Описание |
 |     :---:      |     :---:      |     :---:      |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+| /   | нет     |  возвращает всех пользователей в виде json    |
+| /user/<int:user_id>     | id       | возвращает конкретного пользователя по id      |
+| /user/update   | id, name, surname     | изменяет пользователя    |
+| /user/delete   | id     | удаляет пользователя    |
+| /user/add   | name, surname     | добавляет пользователя    |
 
 
 | URL | Параметры | Описание |
