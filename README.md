@@ -9,8 +9,8 @@ Source:
 
 ### Routes:
 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
+| URL | Параметры | Описание |
+|     :---:      |     :---:      |     :---:      |
 | git status   | git status     | git status    |
 | git diff     | git diff       | git diff      |
 
